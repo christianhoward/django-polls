@@ -1,6 +1,6 @@
 {% load staticfiles %}
 
-
+<!--loop through available questions in the latest question list. If no questions, display else-->
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
 {% if latest_question_list %}
     <ul>
